@@ -8,8 +8,7 @@ const Sidebar = ({ sectionList, onClose }) => (
       top: 0,
       left: 0,
       width: '100vw',
-      height: '100vh',
-      display: 'flex'
+      height: '100vh'
     }}>
     <StyledSidebar>
         {sectionList.map(({ label, ref, icon }, ind) => (
