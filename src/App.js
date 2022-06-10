@@ -6,10 +6,10 @@ function App () {
   return (
     <>
       <Header sectionList={sectionData}/>
-      <div style={{ height: '100vh' }} id='hackfools'>HACKFOOLS</div>
-      <div style={{ height: '100vh' }} id='projetos'>PROJETOS</div>
-      <div style={{ height: '100vh' }} id='ganhadores'>GANHADORES</div>
-      <div style={{ height: '100vh' }} id='codelab'>CODELAB</div>
+      <div className='section' id='hackfools'>HACKFOOLS</div>
+      <div className='section' id='projetos'>PROJETOS</div>
+      <div className='section' id='ganhadores'>GANHADORES</div>
+      <div className='section' id='codelab'>CODELAB</div>
       <div>FOOTER</div>
     </>
   )
