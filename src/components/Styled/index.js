@@ -10,14 +10,12 @@ background-color: #FFA4A4;
 height: 100%;
 max-width: 70%;
 padding: 1em .5em;
-font-family: 'Bungee', cursive;
 font-size: max(1.75em, 6vw);
 
 animation: .5s open;
 
 a {
     margin: .2em;
-    text-decoration: none;
     color: #ffd342;
     display: flex;
     align-items: center;
@@ -49,11 +47,11 @@ position: sticky;
 top: 0;
 margin: 0;
 background-color: #FFA4A4;
+max-height: 6vh;
 height: 6vh;
 display: flex;
 justify-content: space-between;
 align-items: center;
-font-family: 'Bungee', cursive;
 font-size: max(1.25em, 1.8vw);
 padding: .5em .5em;
 
@@ -66,7 +64,6 @@ div {
     gap: 1em;
 }
 a {
-    text-decoration: none;
     color: white;
     transition: .5s;
 }
@@ -84,5 +81,21 @@ button {
 
 @media screen and (max-width: 768px) {
     justify-content: flex-start;
+}
+`
+
+export const EventDiv = styled.div`
+font-size: max(min(1.6em, 3.2vw), 1.2em);
+height: 94vh;
+background-image: url(/background.png);
+display: flex;
+align-items: center;
+gap: 5vw;
+padding: 0 2.5vw;
+justify-content: space-around;
+text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+@media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
 }
 `

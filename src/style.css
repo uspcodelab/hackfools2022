@@ -6,4 +6,9 @@ html {scroll-snap-type: y proximity}
 body {
     margin: 0;
     height: 100vh;
+    font-family: 'Bungee', cursive;
+}
+
+a {
+    text-decoration: none;
 }
