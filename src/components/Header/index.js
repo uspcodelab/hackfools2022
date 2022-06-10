@@ -17,7 +17,7 @@ const StyledHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     font-family: 'Bungee', cursive;
-    font-size: 1.5em;
+    font-size: max(1.25em, 1.8vw);
     padding: .5em .5em;
 
     img {

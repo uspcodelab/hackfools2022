@@ -10,11 +10,11 @@ const StyledSidebar = styled.div`
 
     background-color: #FFA4A4;
     height: 100%;
-    min-width: 60%;
+    min-width: 70%;
     padding: 1em .5em;
 
     font-family: 'Bungee', cursive;
-    font-size: 2em;
+    font-size: max(1.75em, 6vw);
 
     a {
         margin: .2em;
