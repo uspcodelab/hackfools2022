@@ -1,24 +1,15 @@
 import React from 'react'
 import Header from './components/Header'
-import { BsPeopleFill } from 'react-icons/bs'
-import { IoIosPaper } from 'react-icons/io'
+import sectionData from './sectionData'
 
 function App () {
   return (
     <>
-      <Header sectionList={[{
-        icon: <BsPeopleFill />,
-        label: 'Evento',
-        ref: '#hackfools'
-      }, {
-        label: 'Projetos',
-        ref: '#projetos',
-        icon: <IoIosPaper />
-      }]}/>
-      <div>HACKFOOLS</div>
-      <div>PROJETOS</div>
-      <div>GANHADORES</div>
-      <div>CODELAB</div>
+      <Header sectionList={sectionData}/>
+      <div style={{ height: '100vh' }} id='hackfools'>HACKFOOLS</div>
+      <div style={{ height: '100vh' }} id='projetos'>PROJETOS</div>
+      <div style={{ height: '100vh' }} id='ganhadores'>GANHADORES</div>
+      <div style={{ height: '100vh' }} id='codelab'>CODELAB</div>
       <div>FOOTER</div>
     </>
   )
