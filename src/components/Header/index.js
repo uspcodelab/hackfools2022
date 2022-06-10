@@ -8,6 +8,8 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import Sidebar from '../Sidebar'
 
 const StyledHeader = styled.div`
+    position: sticky;
+    top: 0;
     margin: 0;
     background-color: #FFA4A4;
     height: 6vh;
@@ -15,14 +17,18 @@ const StyledHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     font-family: 'Bungee', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: .5em .5em;
 
     img {
         height: 100%;
     }
+    div {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1em;
+    }
     a {
-        margin: .2em;
         text-decoration: none;
         color: white;
         transition: .5s;
