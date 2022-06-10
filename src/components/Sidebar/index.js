@@ -1,37 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-
-const StyledSidebar = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    gap: .5em;
-
-    background-color: #FFA4A4;
-    height: 100%;
-    min-width: 70%;
-    padding: 1em .5em;
-
-    font-family: 'Bungee', cursive;
-    font-size: max(1.75em, 6vw);
-
-    a {
-        margin: .2em;
-        text-decoration: none;
-        color: #ffd342;
-        display: flex;
-        align-items: center;
-        gap: .5em;
-    }
-`
-
-const Overlay = styled.div`
-    background-color: black;
-    opacity: 0.5;
-    height: 100%;
-    width: 100%;
-`
+import { Overlay, StyledSidebar } from '../Styled'
 
 const Sidebar = ({ sectionList, onClose }) => (
     <div style={{
