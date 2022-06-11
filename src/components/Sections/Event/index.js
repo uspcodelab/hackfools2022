@@ -7,7 +7,7 @@ const Images = () => {
     query: '(min-device-width: 768px)'
   })
   return (
-    <div style={{ minWidth: '36vw', display: 'flex', flexDirection: isDesktop ? 'column' : 'row', alignItems: 'center', marginTop: isDesktop ? '20vh' : 0 }}>
+    <div style={{ minWidth: '36vw', display: 'flex', alignItems: 'center', ...(isDesktop ? { flexDirection: 'column', marginTop: '20vh' } : { }) }}>
         <img src='/event.png' style={{ width: '35vw', ...(isDesktop ? { marginBottom: '-12vw' } : { marginRight: '-10vw' }) }} />
         <div style={{ display: 'flex', gap: '8vw', flexWrap: 'wrap', justifyContent: 'center', flexDirection: isDesktop ? 'row' : 'column', height: '36vw' }}>
             <img src='/photo3.jpg' style={{ width: '14vw', height: '14vw', borderRadius: '100%' }} />

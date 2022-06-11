@@ -96,6 +96,7 @@ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #
 
 @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 `
 
