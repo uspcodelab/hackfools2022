@@ -5,6 +5,21 @@ const About = () => (
     <AboutDiv
     id='codelab'
     className='section'>
+        <img src='/codelab.png' id="logo" />
+        <div>
+            <h1>USPCodeLab</h1>
+            <p>Somos um grupo de extensão universitária que tem como objetivo estimular a inovação tecnológica na USP.</p>
+            <p>Seja através de iniciativas de educação e compartilhamento de conhecimento ou do desenvolvimento e solução de problemas através de sistemas.</p>
+            <p>Estamos em diversas redes sociais, onde você pode saber mais sobre nós, entrar em contato com a gente ou aprender mais sobre o desenvolvimento de software.</p>
+            <div id="social">
+                <a href="uclab.xyz/instagram" target="_blank"><img src='/instagram.png' /></a>
+                <a href="uclab.xyz/facebook" target="_blank"><img src='/facebook.png' /></a>
+                <a href="uclab.xyz/linkedin" target="_blank"><img src='/linkedin.png' /></a>
+                <a href="uclab.xyz/youtube" target="_blank"><img src='/youtube.png' /></a>
+            </div>
+            <p>contado: uspcodelab@gmail.com</p>
+            <p>Arte feita por <a href="https://www.linkedin.com/in/jessica-sato-8a1434238/" target="_blank" rel="noreferrer">Jéssica Sato</a></p>
+        </div>
     </AboutDiv>
 )
 

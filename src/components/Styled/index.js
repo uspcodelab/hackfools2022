@@ -106,4 +106,28 @@ background-image: url(/projectsBackground.png);
 
 export const AboutDiv = styled.div`
 height: 100vh;
+font-size: max(min(1.6em, 3.2vw), 1.2em);
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 2.5em;
+#logo {
+    width: 45vw;
+}
+#social {
+    display: flex;
+    gap: 2em;
+}
+#social > a > img {
+    width: max(5vw, 3.2em);
+    filter: grayscale(100%);
+    transition: .5s;
+}
+#social > a > img:hover {filter: grayscale(0);}
+
+@media screen and (max-width: 768px) {
+    flex-direction: column;
+    #social {display:flex; justify-content: space-around;}
+    #social > a > img {filter: grayscale(0);}
+}
 `
