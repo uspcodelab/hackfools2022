@@ -25,8 +25,8 @@ const Event = () => (
         >
         <Images />
         <div>
-            <p>O Hackfools é um Hackathon anual organizado pelo <a href='#codelab' style={{ color: '#d92400' }}>USPCodeLab</a> para os ingressantes da USP, com o intuíto de ser uma maneira descontraída de introduzir os participantes ao caminho sem volta dos Hackathons.</p>
-            <p>Em 2022, o evento ocorreu no dia 04 de junho, no IME - USP, com direito a pré evento no dia anterior oferecido pela <a href='https://blog.elo7.dev/' target='_blank' style={{ color: '#d92400' }} rel="noreferrer">Elo7</a>.</p>
+            <p>O Hackfools é um Hackathon anual organizado pelo <a href='#codelab'>USPCodeLab</a> para os ingressantes da USP, com o intuíto de ser uma maneira descontraída de introduzir os participantes ao caminho sem volta dos Hackathons.</p>
+            <p>Em 2022, o evento ocorreu no dia 04 de junho, no IME - USP, com direito a pré evento no dia anterior oferecido pela <a href='https://blog.elo7.dev/' target='_blank' rel="noreferrer">Elo7</a>.</p>
             <p>Mais de 70 alunos se juntaram para programar das 10 da manhã até as 8 da noite, com um objetivo em comum: </p>
             <p>Produzir o <q>melhor</q> serviço de pizzaria.</p>
             <p>O resultado foi muita programação, networking, aprendizado e comida.</p>

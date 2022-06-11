@@ -94,6 +94,8 @@ padding: 0 2.5vw;
 justify-content: space-around;
 text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 
+a {color: #d92400}
+
 @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
     justify-content: flex-end;
@@ -102,7 +104,25 @@ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #
 
 export const ProjectsDiv = styled.div`
 height: 100vh;
+font-size: max(min(2em, 3.2vw), 1.2em);
 background-image: url(/projectsBackground.png);
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+color: #d92400;
+text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+a {color: #ffd342;}
+
+ul{
+    list-style-type: none;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 1em 2em;
+    border-radius: .5em;
+}
 `
 
 export const AboutDiv = styled.div`
