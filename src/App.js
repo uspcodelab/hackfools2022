@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from './components/Header'
+import About from './components/Sections/About'
 import Event from './components/Sections/Event'
+import Projects from './components/Sections/Projects'
 import sectionData from './sectionData'
 
 function App () {
@@ -8,10 +10,8 @@ function App () {
     <>
       <Header sectionList={sectionData}/>
       <Event />
-      <div className='section' id='projetos'>PROJETOS</div>
-      <div className='section' id='ganhadores'>GANHADORES</div>
-      <div className='section' id='codelab'>CODELAB</div>
-      <div>FOOTER</div>
+      <Projects />
+      <About />
     </>
   )
 }

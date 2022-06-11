@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 html {scroll-snap-type: y proximity}
-.section {height: 100vh; scroll-snap-align: center; scroll-margin-top: 16vh}
+.section {scroll-snap-align: center; scroll-margin-top: 16vh}
 
 body {
     margin: 0;

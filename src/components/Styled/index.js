@@ -11,12 +11,11 @@ height: 100%;
 max-width: 70%;
 padding: 1em .5em;
 font-size: max(1.75em, 6vw);
-
 animation: .5s open;
 
 a {
-    margin: .2em;
     color: #ffd342;
+    margin: .2em;
     display: flex;
     align-items: center;
     gap: .5em;
@@ -64,7 +63,7 @@ div {
     gap: 1em;
 }
 a {
-    color: white;
+    color: #ffd342;
     transition: .5s;
 }
 a:hover {
@@ -86,8 +85,8 @@ button {
 
 export const EventDiv = styled.div`
 font-size: max(min(1.6em, 3.2vw), 1.2em);
-height: 94vh;
-background-image: url(/background.png);
+height: 100vh;
+background-image: url(/eventBackground.png);
 display: flex;
 align-items: center;
 gap: 5vw;
@@ -98,4 +97,13 @@ text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #
 @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
 }
+`
+
+export const ProjectsDiv = styled.div`
+height: 100vh;
+background-image: url(/projectsBackground.png);
+`
+
+export const AboutDiv = styled.div`
+height: 100vh;
 `
