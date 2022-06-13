@@ -16,7 +16,7 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://uspcodelab.github.io/hackfools2022/",
+  "homepage": "hackfools-2022",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -50,7 +50,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.0"
-  },
-  "homepage": "hackfools-2022"
+    "eslint-plugin-react": "^7.30.0",
+    "gh-pages": "^4.0.0"
+  }
 }
