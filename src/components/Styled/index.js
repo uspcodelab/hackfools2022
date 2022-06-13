@@ -151,4 +151,8 @@ padding: 2.5em;
     #social {display:flex; justify-content: space-around;}
     #social > a > img {filter: grayscale(0);}
 }
+
+a {
+    z-index: -2;
+}
 `
