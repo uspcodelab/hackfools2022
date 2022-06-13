@@ -51,5 +51,6 @@
     "eslint-plugin-n": "^15.2.2",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0"
-  }
+  },
+  "homepage": "hackfools-2022"
 }
