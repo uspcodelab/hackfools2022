@@ -86,7 +86,7 @@ button {
 export const EventDiv = styled.div`
 font-size: max(min(1.6em, 3.2vw), 1.2em);
 height: 100vh;
-background-image: url(/eventBackground.png);
+background-image: url(../../images/eventBackground.png);
 display: flex;
 align-items: center;
 gap: 5vw;
@@ -105,7 +105,7 @@ a {color: #d92400}
 export const ProjectsDiv = styled.div`
 height: 100vh;
 font-size: max(min(2em, 3.2vw), 1.2em);
-background-image: url(/projectsBackground.png);
+background-image: url(../../images/projectsBackground.png);
 
 display: flex;
 flex-direction: column;
