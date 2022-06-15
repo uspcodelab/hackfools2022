@@ -2,17 +2,22 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive'
 import { EventDiv } from '../../Styled'
 
+import photo1 from '../../../images/photo1.jpg'
+import photo2 from '../../../images/photo2.jpg'
+import photo3 from '../../../images/photo3.jpg'
+import event from '../../../images/event.png'
+
 const Images = () => {
   const isDesktop = useMediaQuery({
     query: '(min-device-width: 768px)'
   })
   return (
     <div style={{ minWidth: '36vw', display: 'flex', alignItems: 'center', ...(isDesktop ? { flexDirection: 'column', marginTop: '20vh' } : { }) }}>
-        <img src='/event.png' style={{ width: '35vw', ...(isDesktop ? { marginBottom: '-12vw' } : { marginRight: '-10vw' }) }} />
+        <img src={event} style={{ width: '35vw', ...(isDesktop ? { marginBottom: '-12vw' } : { marginRight: '-10vw' }) }} />
         <div style={{ display: 'flex', gap: '8vw', flexWrap: 'wrap', justifyContent: 'center', flexDirection: isDesktop ? 'row' : 'column', height: '36vw' }}>
-            <img src='/photo3.jpg' style={{ width: '14vw', height: '14vw', borderRadius: '100%' }} />
-            <img src='/photo2.jpg' style={{ width: '14vw', height: '14vw', borderRadius: '100%' }} />
-            <img src='/photo1.jpg' style={{ width: '14vw', height: '14vw', borderRadius: '100%', ...(isDesktop ? { marginTop: '-24vw' } : { marginLeft: '-18vw' }) }} />
+            <img src={photo3} style={{ width: '14vw', height: '14vw', borderRadius: '100%' }} />
+            <img src={photo2} style={{ width: '14vw', height: '14vw', borderRadius: '100%' }} />
+            <img src={photo1} style={{ width: '14vw', height: '14vw', borderRadius: '100%', ...(isDesktop ? { marginTop: '-24vw' } : { marginLeft: '-18vw' }) }} />
         </div>
    </div>
   )
