@@ -23,7 +23,7 @@ const About = () => (
                 <a href="https://uclab.xyz/linkedin" target="_blank" rel="noreferrer"><img src={linkedin} /></a>
                 <a href="https://uclab.xyz/youtube" target="_blank" rel="noreferrer"><img src={youtube} /></a>
             </div>
-            <p>contado: uspcodelab@gmail.com</p>
+            <p>contato: uspcodelab@gmail.com</p>
             <p>Arte feita por <a href="https://www.linkedin.com/in/jessica-sato-8a1434238/" target="_blank" rel="noreferrer">Jéssica Sato</a></p>
         </div>
     </AboutDiv>
