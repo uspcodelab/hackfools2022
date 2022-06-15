@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/hackfools2022/static/css/main.4cee66b0.css",
-    "main.js": "/hackfools2022/static/js/main.7ac3c076.js",
-    "index.html": "/hackfools2022/index.html",
-    "main.4cee66b0.css.map": "/hackfools2022/static/css/main.4cee66b0.css.map",
-    "main.7ac3c076.js.map": "/hackfools2022/static/js/main.7ac3c076.js.map"
+    "main.css": "/hackfools-2022/static/css/main.4cee66b0.css",
+    "main.js": "/hackfools-2022/static/js/main.02a2994d.js",
+    "static/media/photo2.jpg": "/hackfools-2022/static/media/photo2.fd7bfd3ba64d00a562da.jpg",
+    "static/media/event.png": "/hackfools-2022/static/media/event.ce7f0a563500cd224bf0.png",
+    "static/media/photo1.jpg": "/hackfools-2022/static/media/photo1.04ce387e168327f1cb04.jpg",
+    "static/media/hackfools.png": "/hackfools-2022/static/media/hackfools.a8cc8a8f4f957a8270f4.png",
+    "static/media/photo3.jpg": "/hackfools-2022/static/media/photo3.409780112eb69d9ec41c.jpg",
+    "static/media/codelab.png": "/hackfools-2022/static/media/codelab.1cbdcccf4a101222bad9.png",
+    "static/media/instagram.png": "/hackfools-2022/static/media/instagram.79535458a8a6d88f81d4.png",
+    "static/media/youtube.png": "/hackfools-2022/static/media/youtube.b4f2b64af1b614ce26dc.png",
+    "static/media/linkedin.png": "/hackfools-2022/static/media/linkedin.6892b3ae328c7a1e055f.png",
+    "static/media/facebook.png": "/hackfools-2022/static/media/facebook.4f037d961598aff2a0a4.png",
+    "index.html": "/hackfools-2022/index.html",
+    "main.4cee66b0.css.map": "/hackfools-2022/static/css/main.4cee66b0.css.map",
+    "main.02a2994d.js.map": "/hackfools-2022/static/js/main.02a2994d.js.map"
   },
   "entrypoints": [
     "static/css/main.4cee66b0.css",
-    "static/js/main.7ac3c076.js"
+    "static/js/main.02a2994d.js"
   ]
 }
