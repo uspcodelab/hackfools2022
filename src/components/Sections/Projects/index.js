@@ -6,7 +6,7 @@ import { FaTrophy } from 'react-icons/fa'
 const Projects = () => (
     <ProjectsDiv
     id='projetos'
-    className='section'>
+    >
         <h1>Projetos</h1>
         <ul>
             {projectsData.map(({ name, team, participants, link, winner }, ind) => (

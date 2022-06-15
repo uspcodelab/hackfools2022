@@ -10,7 +10,7 @@ import youtube from '../../../images/youtube.png'
 const About = () => (
     <AboutDiv
     id='codelab'
-    className='section'>
+    >
         <img src={codelab} id="logo" />
         <div>
             <h1>USPCodeLab</h1>

@@ -26,7 +26,7 @@ const Images = () => {
 const Event = () => (
     <EventDiv
         id='hackfools'
-        className='section'
+
         >
         <Images />
         <div>

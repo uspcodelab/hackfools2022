@@ -10,7 +10,7 @@ align-items: stretch;
 gap: .5em;
 
 background-color: #FFA4A4;
-height: 100%;
+min-height: 100%;
 max-width: 70%;
 padding: 1em .5em;
 font-size: max(1.75em, 6vw);
@@ -37,7 +37,7 @@ a {
 export const Overlay = styled.div`
 background-color: black;
 opacity: 0.5;
-height: 100%;
+min-height: 100%;
 width: 100vw;
 position: absolute;
 top: 0;
@@ -88,7 +88,7 @@ button {
 
 export const EventDiv = styled.div`
 font-size: max(min(1.6em, 3.2vw), 1.2em);
-height: 100vh;
+min-height: 100vh;
 background-image: url(${eventBackground});
 display: flex;
 align-items: center;
@@ -106,7 +106,7 @@ a {color: #d92400}
 `
 
 export const ProjectsDiv = styled.div`
-height: 100vh;
+min-height: 100vh;
 font-size: max(min(2em, 3.2vw), 1.2em);
 background-image: url(${projectsBackground});
 
@@ -129,7 +129,7 @@ ul{
 `
 
 export const AboutDiv = styled.div`
-height: 100vh;
+min-height: 100vh;
 font-size: max(min(1.6em, 3.2vw), 1.2em);
 display: flex;
 justify-content: space-around;
@@ -153,5 +153,9 @@ padding: 2.5em;
     flex-direction: column;
     #social {display:flex; justify-content: space-around;}
     #social > a > img {filter: grayscale(0);}
+}
+
+a {
+    z-index: 0;
 }
 `
