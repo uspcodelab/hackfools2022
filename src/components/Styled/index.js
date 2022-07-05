@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import projectsBackground from '../../images/projectsBackground.png'
-import eventBackground from '../../images/eventBackground.png'
+// import projectsBackground from '../../images/projectsBackground.png'
+// import eventBackground from '../../images/eventBackground.png'
 
 export const StyledSidebar = styled.div`
 display: flex;
@@ -89,7 +89,7 @@ button {
 export const EventDiv = styled.div`
 font-size: max(min(1.6em, 3.2vw), 1.2em);
 min-height: 100vh;
-background-image: url(${eventBackground});
+background-image: url(https://i.ibb.co/xHyGGgZ/event-Background.png);
 display: flex;
 align-items: center;
 gap: 5vw;
@@ -108,7 +108,7 @@ a {color: #d92400}
 export const ProjectsDiv = styled.div`
 min-height: 100vh;
 font-size: max(min(2em, 3.2vw), 1.2em);
-background-image: url(${projectsBackground});
+background-image: url(https://i.ibb.co/74rHMT8/projects-Background.png);
 
 display: flex;
 flex-direction: column;
